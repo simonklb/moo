@@ -5,5 +5,12 @@
   "id": "did:web:simonklb.se",
   "alsoKnownAs": [
     "at://simonklb.se"
+  ],
+  "service": [
+    {
+      "id": "#atproto_pds",
+      "type": "AtprotoPersonalDataServer",
+      "serviceEndpoint": "https://bsky.social"
+    }
   ]
 }
